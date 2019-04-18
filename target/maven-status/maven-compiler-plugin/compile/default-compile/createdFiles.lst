@@ -1,0 +1,10 @@
+demo\StreamingJob$1.class
+demo\BatchJob.class
+demo\CustomWatermarkEmitter.class
+demo\KafkaConnect.class
+object\Flow.class
+demo\StreamingJob.class
+demo\FlowSchema.class
+demo\WriteTextSink.class
+demo\StreamingJob$2.class
+demo\PropertyReader.class
