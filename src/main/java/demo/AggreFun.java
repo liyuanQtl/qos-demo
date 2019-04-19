@@ -13,7 +13,7 @@ private static class AggrFun implements AggregateFunction<Flow, Flow, Flow> {
 	@Override
 	public Flow createAccumulator() {
 		Flow flow = new Flow();
-		return new flow;
+		return flow;
 	}
 	
 	@Override
@@ -24,7 +24,7 @@ private static class AggrFun implements AggregateFunction<Flow, Flow, Flow> {
 		flow.setSend(value.getSend() + accumulator.getSend());
 		flow.setRecv(value.getRecv() + accumulator.getRecv());
 		flow.setMsec(value.getMsec() + accumulator.getMsec());
-		return new flow;
+		return flow;
 	}
 	
 	@Override
@@ -40,6 +40,6 @@ private static class AggrFun implements AggregateFunction<Flow, Flow, Flow> {
 		flow.setSend(value.getSend() + accumulator.getSend());
 		flow.setRecv(value.getRecv() + accumulator.getRecv());
 		flow.setMsec(value.getMsec() + accumulator.getMsec());
-		return new flow;
+		return flow;
 	}
 }
